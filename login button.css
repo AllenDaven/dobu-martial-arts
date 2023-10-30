@@ -1,0 +1,336 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main {
+    width: 100%;
+    background-color: #D4AE5A;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(Login\ Picture.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 220px;
+    float: left;
+    height: 70px;
+}
+
+.logo img {
+    float: left;
+    width: 210px;
+    height: auto;
+    margin-left: 35px;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 55px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #D4AE5A;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.join-button,
+.login-button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-top: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.join-button {
+    background-color: darkgoldenrod;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.login-button {
+    background-color: #af000f;
+    margin-right: 50px;
+}
+
+.join-button:hover {
+    background-color: #D4AE5A;
+}
+
+.login-button:hover {
+    background-color: #e21916;
+}
+
+.buttons a.active .login-button {
+    background-color: #e21916;
+    color: white;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #171717;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.form:hover {
+    transform: scale(1.15);
+    border: 1px solid black;
+}
+
+#heading {
+    text-align: center;
+    margin: 2em;
+    color: #D4AE5A;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+}
+
+.input-icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: white;
+}
+
+.input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #d3d3d3;
+}
+
+.form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
+}
+
+.button1 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #000;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button1:hover {
+    background-color: #D4AE5A;
+    color: white;
+}
+
+.button2 {
+    padding: 0.5em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #000;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button2:hover {
+    background-color: #D4AE5A;
+    color: white;
+}
+
+.button3 {
+    margin-bottom: 3em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #000;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button3:hover {
+    background-color: red;
+    color: #ffffff;
+}
+
+.welcome-message {
+    text-align: center;
+    margin: 1em 0;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+/* ----------------------FOOTER----------------------- */
+
+body {
+    font-family: 'Lato';
+}
+
+.site-footer {
+    background-color: #000;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.site-footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.site-footer .section {
+    width: 30%;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.site-footer h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.site-footer p {
+    font-size: 16px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    font-family: 'Lato';
+}
+
+.section {
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 3%;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    margin-left: 35px;
+    color: #D4AE5A;
+}
+
+.section p {
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.site-footer img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.btn.btn-primary {
+    background-color: #af000f;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.btn.btn-primary:hover {
+    background-color: #e21916;
+}
