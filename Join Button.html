@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="x-icon" href="Logo-Browser Icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOIN NOW</title>
+  <link rel="stylesheet" href="join button.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header id="header">
+    <div class="main8">
+      <div class="navbar">
+        <div class="icon">
+          <div class="logo">
+            <a href="index.html">
+              <img src="LOGO-DoBU Martial Arts.png" alt="DoBu Martial Arts Logo">
+          </div>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Martial Arts Information.html">MARTIAL ARTS INFORMATION</a></li>
+            <li><a href="Class Schedule.html">CLASS SCHEDULE</a></li>
+            <li><a href="Membership Options.html">MEMBERSHIP OPTIONS</a></li>
+            <li><a href="Account Management.html">ACCOUNT MANAGEMENT</a></li>
+            <li><a href="Social Features.html">SOCIAL FEATURES</a></li>
+          </ul>
+        </div>
+
+        <div class="buttons">
+          <a href="Join Button.html" class="active"><button class="join-button">Join Now</button></a>
+          <a href="Login Button.html"><button class="login-button">Login</button></a>
+        </div>
+
+        <div id="common-header"></div>
+      </div>
+
+      <section class="container0">
+        <header>REGISTRATION FORM</header>
+        <form class="form" action="#">
+          <div class="input-box">
+            <label>Full Name</label>
+            <input required="" placeholder="Enter full name" type="text">
+          </div>
+          <div class="input-box">
+            <label>Email Address</label>
+            <input required="" placeholder="Enter email" type="text">
+          </div>
+          <div class="column">
+            <div class="input-box">
+              <label>Phone Number</label>
+              <input required="" placeholder="Enter phone number" type="telephone">
+            </div>
+            <div class="input-box">
+              <label>Birth Date</label>
+              <input required="" placeholder="Enter birth date" type="date">
+            </div>
+          </div>
+          <div class="gender-box">
+            <label>Gender</label>
+            <div class="gender-option">
+              <div class="gender">
+                <input checked="" name="gender" id="check-male" type="radio">
+                <label for="check-male">Male</label>
+              </div>
+              <div class="gender">
+                <input name="gender" id="check-female" type="radio">
+                <label for="check-female">Female</label>
+              </div>
+              <div class="gender">
+                <input name="gender" id="check-other" type="radio">
+                <label for="check-other">Prefer not to say</label>
+              </div>
+            </div>
+          </div>
+          <div class="input-box address">
+            <label>Address</label>
+            <input required="" placeholder="Enter street address" type="text">
+            <div class="column">
+              <div class="select-box">
+                <select>
+                  <option hidden="">Country</option>
+                  <option>USA</option>
+                  <option>UK</option>
+                  <option>Germany</option>
+                  <option>Japan</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <input required="" placeholder="Enter your city" type="text">
+            </div>
+            <div class="welcome-message">
+              <p>Rest assured that the information you input will be kept confidential and not shared with any third
+                parties.</p>
+              <p>Your privacy and data security are our top priorities.</p>
+              <p> After clicking the "Submit" button, you have successfully created your account.</p>
+              <p>Welcome to DoBu Martial Arts</p>
+            </div>
+          </div>
+          <button>SUBMIT</button>
+        </form>
+      </section>
+  </header>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="section">
+        <h2>Contact Us</h2>
+        <p>
+          <img src="Location Icon.png" alt="Location Icon">
+          1012 Dockside Rd, London E16 2QT,<br>United Kingdom
+          <br>
+          <a href="https://www.google.com/maps?q=1012+Dockside+Rd,+London+E16+2QT,+United+Kingdom" target="_blank">(Open
+            on Google Maps)</a>
+        </p>
+        <p>
+          <img src="Phone Icon.png" alt="Phone Icon">
+          +4 477 6524 3012
+        </p>
+        <p>
+          <img src="Email Icon.png" alt="Email Icon">
+          UKDoBUMartialArts@gmail.com
+        </p>
+      </div>
+      <div class="section">
+        <h2>Opening Hours</h2>
+        <p>Monday to Friday</p>
+        <p>6:00 AM - 21:00 PM</p>
+        <p>------------------------</p>
+        <p>Saturday and Sunday</p>
+        <p>8:00 AM - 17:00 PM</p>
+      </div>
+      <div class="section">
+        <h2>Connect With Us</h2>
+        <p>
+          <img src="Facebook Icon.png" alt="Facebook Icon">
+          </a>
+          DoBu Martial Arts UK
+        </p>
+        <p>
+          <img src="Instagram Icon.png" alt="Instagram Icon">
+          </a>
+          Official.DoBu Martial Arts UK
+        </p>
+        <p>
+          <img src="Twitter Icon2.jpg" alt="Twitter Icon">
+          </a>
+          DoBu Martial Arts UK
+        </p>
+        <a href="Join Button.html" class="btn btn-primary">JOIN NOW</a>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </footer>
+
+  <div id="common-footer"></div>
+
+  <script>
+    $(document).ready(function () {
+
+      $('#common-header').load('common-header.html');
+      $('#common-footer').load('common-footer.html');
+    });
+  </script>
+</body>
+
+</html>
