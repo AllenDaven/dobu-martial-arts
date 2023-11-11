@@ -19,7 +19,7 @@ Feel free to explore the source code and contribute to the enhancement of the Do
 
 ---
 
-##Disclaimer:
+## Disclaimer:
 This project is a part of academic coursework or personal development, and it is not associated with DoBu Martial Arts. The content, imagery, and information used in this project are for illustrative purposes only. All rights and credits for the branding, logos, and related materials belong to DoBu Martial Arts. The project's primary objective is to showcase web development skills and create a fictional representation of a martial arts facility's website.
 
 **Use this code at your own responsibility.**
