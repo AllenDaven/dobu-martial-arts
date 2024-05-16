@@ -13,7 +13,6 @@ Welcome to the DoBu Martial Arts Website repository! This project aims to create
 - HTML, CSS, JavaScript for frontend development.
 - Bootstrap framework for responsive design.
 - jQuery for interactive elements.
-- Backend technologies as per project requirements.
 
 Feel free to explore the source code and contribute to the enhancement of the DoBu Martial Arts website!
 
